@@ -1,0 +1,8 @@
+{
+  "Description": "Track the number of times you press a key.", 
+  "Name": "Phantombot Command", 
+  "com.jksessions.phantombot": {
+    "Name": "Command", 
+    "Tooltip": "How many times did you get pwned today? Keep track with this counter."
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>com.jksessions.phantombot.command PI</title>
+    <link rel="stylesheet" href="css/sdpi.css" />
+    <script src="js/pi.js"></script>
+  </head>
+  <body>
+    <div class="sdpi-wrapper">
+      <div class="sdpi-item">
+        <div class="sdpi-item-label">Address</div>
+        <input class="sdpi-item-value" type="text" id="apiAddress" value="" placeholder="https://twitchbot.jksessions.id.au"/>
+      </div>
+
+      <div class="sdpi-item">
+        <div class="sdpi-item-label">Webauth token</div>
+        <input class="sdpi-item-value" type='text' id="webauthKey" value="" placeholder="Auth key found in botlogin.txt"></input>
+      </div>
+
+      <div class="sdpi-item">
+        <div class="sdpi-item-label">User</div>
+        <input class="sdpi-item-value" type='text' id="userEmulated" value="" placeholder="User to emulate"></input>
+      </div>
+
+      <div class="sdpi-item">
+        <div class="sdpi-item-label">Command</div>
+        <input class="sdpi-item-value" type='text' id="commandUsed" value="" placeholder="eg. !skipsong"></input>
+      </div>
+    </div>
+
+    <div class="sdpi-info-label hidden" style="top: -1000;" value=""></div>
+  </body>
+</html>

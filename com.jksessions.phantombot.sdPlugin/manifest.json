@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon", 
+      "Name": "Command", 
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "PropertyInspectorPath": "PropertyInspector/ExecuteCommand.html",
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "UUID": "com.jksessions.phantombot.command"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "JKSessions", 
+  "CodePath": "code.html", 
+  "Description": "Allows to send a command to a phantombot server.", 
+  "Name": "Phantombot Command", 
+  "Icon": "pluginIcon",  
+  "Version": "0.1",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
