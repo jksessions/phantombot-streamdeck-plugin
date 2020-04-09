@@ -10,7 +10,7 @@
           "FontSize": "16"
         }
       ], 
-      "SupportedInMultiActions": false,
+      "SupportedInMultiActions": true,
       "PropertyInspectorPath": "PropertyInspector/ExecuteCommand.html",
       "Tooltip": "Execute a command on phantombot.", 
       "UUID": "com.jksessions.phantombot.command"
