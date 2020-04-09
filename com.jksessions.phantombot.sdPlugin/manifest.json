@@ -12,7 +12,7 @@
       ], 
       "SupportedInMultiActions": false,
       "PropertyInspectorPath": "PropertyInspector/ExecuteCommand.html",
-      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "Tooltip": "Execute a command on phantombot.", 
       "UUID": "com.jksessions.phantombot.command"
     }
   ], 
